@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:textColor="@android:color/black"
+        android:id="@+id/mobile_textview"
+        android:text="8895478475"
+        fontPath="fonts/Montserrat-Regular.ttf"
+        android:layout_marginLeft="10dp"/>
+
+    <ImageButton
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:background="@android:drawable/list_selector_background"
+        android:id="@+id/add_or_delete"
+        android:src="@drawable/ic_remove_black_24dp"
+        android:tint="#E91E63"/>
+
+
+
+</LinearLayout>

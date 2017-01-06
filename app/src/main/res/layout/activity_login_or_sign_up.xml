@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login_or_sign_up"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="64dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="64dp"
+    android:background="#E91E63"
+    android:orientation="vertical"
+    tools:ignore="MissingPrefix"
+    tools:context="com.hadrami.oumar.safewoman.LoginOrSignUpActivity">
+
+    <TextView
+        android:text="Women Safety"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_weight="4"
+        fontPath="fonts/Montserrat-Regular.ttf"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:id="@+id/textView"
+        android:textSize="38sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:inputType="text|textEmailAddress"
+        android:ems="10"
+        fontPath="fonts/Montserrat-Regular.ttf"
+        android:padding="5dp"
+        android:background="@drawable/outline"
+        android:id="@+id/email_edittext"
+        android:textColorHint="@android:color/white"
+        android:hint="name.."
+        android:textColor="@android:color/white"
+        android:singleLine="true"
+        android:layout_marginBottom="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:padding="5dp"
+        fontPath="fonts/Montserrat-Regular.ttf"
+        android:inputType="textPassword"
+        android:background="@drawable/outline"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:id="@+id/password_edittext"
+        android:hint="password.."
+        android:textColor="@android:color/white"
+        android:singleLine="true"
+        android:textColorHint="@android:color/white" />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/login_button"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false"
+        android:text="Sign In"
+        fontPath="fonts/Montserrat-Regular.ttf"
+        android:background="#536DFE"
+        android:elevation="6dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp" />
+
+
+
+</LinearLayout>
